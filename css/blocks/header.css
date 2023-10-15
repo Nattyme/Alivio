@@ -15,8 +15,47 @@
 }
 
 .header-nav {
-    
+    font-weight: 500;
+    color: #292929;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li+li {
+    margin-left: 70px;
+}
+
+.header-nav a {
+    transition: color 0.2s ease-in;
+}
+
+.header-nav a:active,
+.header-nav a:hover {
+    color: #01996D;
 }
 
 .header-login {
+
+}
+
+.header-login a {
+    color: #000;
+}
+
+.header-login a:hover {
+    color: #01996D;
+}
+
+.header-login a + a {
+    margin-left: 35px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 50px;
+    border-radius: 4px;
+    background-color: #01996D;;
+    color: #fff !important;
 }
