@@ -1,0 +1,22 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #D6D6D6;;
+    background-color: #FFF;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+}
+
+.header-nav {
+    
+}
+
+.header-login {
+}
