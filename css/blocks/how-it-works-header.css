@@ -6,6 +6,7 @@
 .how-it-works-header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 52px;
     
 }
 
@@ -37,4 +38,5 @@
 }
 
 .how-it-works-steps {
+    
 }
