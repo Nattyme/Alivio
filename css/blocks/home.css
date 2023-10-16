@@ -22,6 +22,7 @@
 }
 
 .home-text {
+    min-width: 430px;
     line-height: 144,5%;
     color: #484848;
 }
