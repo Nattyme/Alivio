@@ -10,9 +10,17 @@
 }
 
 .product-img-wrapper{
+   position: relative;
    padding-left: 60px;
    padding-bottom: 74px;
 }
+
+.product-card {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 
 .product-img {
     width: 100%;
