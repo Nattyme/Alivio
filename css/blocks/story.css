@@ -1,0 +1,49 @@
+.story {
+    padding: 229px 0 176px;
+    background-color: #245852;
+    color: #FFF;
+}
+
+.story-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.story-content {
+    max-width: 580px;
+}
+
+.story-heading {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%; /* 78.5px */
+}
+
+.story-heading + * {
+    margin-bottom: 33px;
+}
+
+.story-text {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 157%; /* 39.25px */
+}
+
+.story-text + * {
+    margin-top: 57px;
+}
+
+.story-btn {
+}
+
+.btn {
+}
+
+.btn-big {
+}
+
+.story-video {
+}
