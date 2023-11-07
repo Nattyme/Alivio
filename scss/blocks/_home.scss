@@ -16,20 +16,21 @@
     font-size: 65px;
     font-weight: 700;
     color: $green;
+
+    & + * {
+        margin-top: 30px;
+    }
 }
 
-.home-heading + * {
-    margin-top: 30px;
-}
 
 .home-text {
     min-width: 430px;
     line-height: 144,5%;
     color: $text-grey;
-}
- 
-.home-text + * {
-    margin-top: 53px;
+
+    & + * {
+        margin-top: 53px;
+    }
 }
 
 .home-bg-img {

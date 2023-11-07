@@ -10,11 +10,11 @@
     font-size: 20px;
     color: $white;
     transition: opacity 0.2s ease-in;
-}
 
-.btn:hover, a.btn:hover {
+    &:hover {
     opacity: 0.8;
     color: $white;
+    }
 }
 
 .btn-big, a.btn-big {

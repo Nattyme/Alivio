@@ -26,11 +26,11 @@
 
 .header-nav a {
     transition: color 0.2s ease-in;
-}
 
-.header-nav a:active,
-.header-nav a:hover {
-    color: $green;
+    &:active,
+    &:hover {
+        color: $green;
+    }
 }
 
 .header-login {

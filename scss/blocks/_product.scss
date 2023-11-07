@@ -58,8 +58,8 @@
     max-width: 530px;
     line-height: 157%;
     color: $text-grey;
-}
 
-.product-content-text + * {
-    margin-top: 40px; 
+    & + * {
+        margin-top: 40px;
+    }
 }
