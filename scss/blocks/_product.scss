@@ -44,10 +44,10 @@
 
 .product-content-subtitle {
     font-size: 50px;
-    font-family: 'Georgia', serif;
+    font-family: $font-secondary;
     font-weight: 700;
     line-height: 157%;
-    color: #01996D;
+    color: $green;
 }
 
 .product-content-subtitle + * {
@@ -57,7 +57,7 @@
 .product-content-text {
     max-width: 530px;
     line-height: 157%;
-    color: #484848;
+    color: $text-grey;
 }
 
 .product-content-text + * {

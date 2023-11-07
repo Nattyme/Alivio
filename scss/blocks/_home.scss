@@ -12,10 +12,10 @@
 }
 
 .home-heading {
-    font-family: 'Georgia', serif;
+    font-family: $font-secondary;
     font-size: 65px;
     font-weight: 700;
-    color: #01996D;
+    color: $green;
 }
 
 .home-heading + * {
@@ -25,7 +25,7 @@
 .home-text {
     min-width: 430px;
     line-height: 144,5%;
-    color: #484848;
+    color: $text-grey;
 }
  
 .home-text + * {

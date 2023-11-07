@@ -1,7 +1,7 @@
 .story {
     padding: 229px 0 176px;
-    background-color: #245852;
-    color: #FFF;
+    background-color: $story-bg;
+    color: $white;
 }
 
 .story-row {
@@ -16,7 +16,7 @@
 }
 
 .story-heading {
-    font-family: 'Georgia', serif;
+    font-family: $font-secondary;
     font-size: 50px;
     font-weight: 700;
     line-height: 157%; /* 78.5px */
@@ -34,15 +34,6 @@
 
 .story-text + * {
     margin-top: 57px;
-}
-
-.story-btn {
-}
-
-.btn {
-}
-
-.btn-big {
 }
 
 .story-video {
@@ -66,8 +57,4 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.20);
-}
-
-.story-video-oject {
-
 }

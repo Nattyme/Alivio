@@ -23,11 +23,11 @@
 }
 
 .how-it-works-subtitle {
-    font-family: 'Georgia', serif;
+    font-family: $font-secondary;
     font-size: 50px;
     font-weight: 700;
     line-height: 157%; /* 78.5px */
-    color: #01996D;
+    color: $green;
 }
 
 .how-it-works-header-content {
@@ -61,10 +61,10 @@
     padding-top: 135px;
     padding-left: 88px;
     font-size: 30px;
-    font-family: 'Georgia', serif;
+    font-family: $font-secondary;
     font-weight: 700;
     line-height: 150%; /* 45px */
-    color: #000;
+    color: $black;
 }
 
 .step-heading::before {

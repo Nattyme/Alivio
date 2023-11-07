@@ -2,7 +2,7 @@
     padding-top: 17px;
     padding-bottom: 17px;
     border-bottom: 1px solid #D6D6D6;;
-    background-color: #FFF;
+    background-color: $white;
 }
 
 .header-row {
@@ -30,7 +30,7 @@
 
 .header-nav a:active,
 .header-nav a:hover {
-    color: #01996D;
+    color: $green;
 }
 
 .header-login {
@@ -38,12 +38,12 @@
 }
 
 .header-login-link {
-    color: #000;
+    color: $black;
     transition: color 0.2s ease-in;
 }
 
 .header-login a:hover {
-    color: #01996D;
+    color: $green;
 }
 
 .header-login a + a {
