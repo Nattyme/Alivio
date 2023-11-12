@@ -118,6 +118,11 @@ body {
   width: 1536px;
 }
 
+@media (max-width: 1399px) {
+  .container {
+    width: 100%;
+  }
+}
 .btn, a.btn {
   display: inline-block;
   min-height: 51px;
