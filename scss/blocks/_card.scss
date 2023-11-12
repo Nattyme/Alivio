@@ -14,10 +14,22 @@
 
 
 .card-title {
-    font-size: 14.49px;
+    position: relative;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 157%; /* 22.749px */
-    border-bottom: 0.74px solid $black;
+    line-height: 1;
+    padding-bottom: 12px;
+    margin-bottom: 13px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: $black;
+        height: 0.75px;
+        left: -7px;
+        right: -7px;
+        bottom: 0;
+    }
 
 }
 

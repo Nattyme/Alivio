@@ -1,16 +1,9 @@
 /* Reset and base styles  */
-* {
+*, *::before, *::after {
 	padding: 0px;
 	margin: 0px;
 	border: none;
-
-	&::before,
-	&::after {
-	margin: 0;
-	padding: 0;
-	border: none;
 	box-sizing: border-box;
-	}
 }
 
 
