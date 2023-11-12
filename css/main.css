@@ -378,6 +378,8 @@ body {
 .story-video {
   position: relative;
   max-width: 895px;
+  border-radius: 18px;
+  overflow: hidden;
 }
 
 .story-video-btn {
@@ -555,9 +557,9 @@ body {
   margin-top: 60px;
 }
 
-.footer-nav {
+.footer-nav a {
   transition: opacity 0.2s ease-in;
 }
-.footer-nav:hover {
+.footer-nav a:hover {
   opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */
