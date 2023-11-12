@@ -1,7 +1,6 @@
 
 .card {
     width: 296px;
-    height: 293px;
     text-align: center;
     border-radius: 4px;
     background: $white;
@@ -11,7 +10,6 @@
     align-items: center;
     padding: 28px 20px 30px;
 }
-
 
 .card-title {
     position: relative;
@@ -33,9 +31,32 @@
 
 }
 
+.card-avatar {
+    margin-bottom: 20px;
+}
+
+.card-contents {
+    text-align: left;
+    padding-left: 6px;
+}
+
 .card-contents-title {
     font-family: $font-secondary;
-    font-size: 15.929px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 157%; /* 25.009px */
+    margin-bottom: 15px;
 }
+
+.card ul {
+    font-size: 10.62px;
+
+    & li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 11px;
+    } 
+    & li + li {
+    margin-top: 16px;
+    }
+}
+
