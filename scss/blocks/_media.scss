@@ -36,6 +36,18 @@
     }
 }
 
+@media (max-width: 1299px) {
+    .product-img-wrapper {
+        flex: 1 0 auto;
+        flex-basis: 50%;
+    }
+
+    .product-content-subtitle {
+        font-style: 40px;
+        line-height: 1.3;
+    }
+}
+
 
 @media (max-width: 1199px) {
     .header-row {
