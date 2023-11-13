@@ -363,7 +363,7 @@ body {
   line-height: 157%; /* 78.5px */
 }
 .story-heading + * {
-  margin-bottom: 33px;
+  margin-top: 33px;
 }
 
 .story-text {
@@ -564,6 +564,11 @@ body {
   opacity: 0.8;
 }
 
+@media (max-width: 1536px) {
+  .container-wide {
+    width: 100%;
+  }
+}
 @media (max-width: 1399px) {
   .container {
     width: 100%;
@@ -603,6 +608,26 @@ body {
   .header-login {
     margin-left: 30px;
   }
+  .story {
+    padding: 90px 0 90px;
+  }
+  .story-row {
+    flex-direction: column-reverse;
+  }
+  .story-video {
+    margin-bottom: 40px;
+  }
+  .story-heading {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+  .story-text {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .story-text + * {
+    margin-top: 30px;
+  }
 }
 @media (max-width: 991px) {
   body {
@@ -631,9 +656,26 @@ body {
   .home-bg-img img {
     opacity: 0.5;
   }
+  .story {
+    padding: 60px 0 60px;
+  }
+  .story-heading {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  .story-text {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .story-text + * {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 419px) {
   .how-it-works-steps {
     grid-template-columns: 1fr;
+  }
+  .story {
+    padding: 45px 0 30px;
   }
 }/*# sourceMappingURL=main.css.map */
