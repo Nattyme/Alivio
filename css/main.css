@@ -584,6 +584,12 @@ body {
     padding-bottom: 52px;
   }
 }
+@media (max-width: 1389px) {
+  .step:nth-child(2),
+  .step:nth-child(3) {
+    padding-top: 0;
+  }
+}
 @media (max-width: 1199px) {
   .header-row {
     justify-content: space-between;
@@ -624,5 +630,10 @@ body {
   }
   .home-bg-img img {
     opacity: 0.5;
+  }
+}
+@media (max-width: 419px) {
+  .how-it-works-steps {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=main.css.map */
