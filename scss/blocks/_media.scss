@@ -23,8 +23,38 @@
     }
 }
 
+
 @media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+
+    .btn {
+        min-height: 41px;
+        padding: 0 30px;
+    }
+
+    .btn-big, 
+    a.btn-big {
+        min-height: 55px;
+        line-height: 55px;
+    }
+
     .header-nav,  .header-login {
         display: none;
+    }
+
+    .home {
+        padding: 40px 0;
+        min-height: unset;
+    }
+
+    .home-heading {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .home-bg-img img {
+        opacity: 0.5;
     }
 }
